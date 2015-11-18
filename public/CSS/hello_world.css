@@ -1,0 +1,18 @@
+#wrapper>h1 {
+	color: #279B61;
+	text-decoration: underline;
+}
+
+#wrapper>h2 {
+	color: #CC3333;
+	text-decoration: underline;
+}
+
+h1, h2 {
+	font-family: "Karla", sans-serif;
+	font-weight: 700px;
+}
+
+p, blockquote, ul, ol, dl, table, a {
+	font-family: "Patua One", cursive;
+}
