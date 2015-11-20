@@ -1,0 +1,44 @@
+/* Box Size */
+
+.red,.orange,.yellow,.green,.blue,.violet {
+	font-weight: bold;
+	background-color: red;
+	color: #fff;
+	width: 150px;
+	height: 50px;
+	padding: 11.5px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+/* Color and Margins */
+
+.red {
+	background-color: red;
+	margin-bottom: 10px
+}
+
+.orange {
+	background-color: orange;
+	margin: 10px 0px 0px 30px
+}
+
+.yellow {
+	background-color: yellow;
+	margin: 10px 0px 0px 60px
+}
+
+.green {
+	background-color: green;
+	margin: 10px 0px 0px 90px
+}
+
+.blue {
+	background-color: blue;
+	margin: 10px 0px 0px 120px
+}
+
+.violet {
+	background-color: violet;
+	margin: 10px 0px 0px 150px
+}
