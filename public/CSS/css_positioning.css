@@ -1,0 +1,63 @@
+/* Box Models */
+
+.red,.orange,.yellow,.green,.blue,.violet {
+	width: 100px;
+	height: 100px;
+	border: none;
+	float: left;
+	margin: 0px 25px 25px 0px;
+	box-sizing: border-box;
+}
+
+.green {
+	clear: left;
+}
+
+.red-box,.orange-box,.yellow-box,.green-box,.blue-box,.violet-box {
+	font-weight: bold;
+	background-color: red;
+	color: #fff;
+	width: 72px;
+	height: 72px;
+	padding: 9px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+img {
+	position: relative;
+	left: 52px;
+	top: 15px;
+}
+
+/* Color and Margins */
+
+.red-box {
+	background-color: red;
+	float: left;
+}
+
+.orange-box {
+	background-color: orange;
+	float: left;
+}
+
+.yellow-box {
+	background-color: yellow;
+	float: left;
+}
+
+.green-box {
+	background-color: green;
+	float: left;
+}
+
+.blue-box {
+	background-color: blue;
+	float: left;
+}
+
+.violet-box {
+	background-color: violet;
+	float: left;
+}
