@@ -16,10 +16,38 @@
 }
 
 .column {
+    box-sizing: border-box;
     float: left;
     padding: 10px;
+    border: 10px solid black;
+}
+
+.column.one-half {
+    width: 50%;
+    background-color: red;
+    float: left;
 }
 
 .column.one-third {
     width: 33.33%;
+    background-color: orange;
+    float: left;
+}
+
+.column.one-fourth {
+    width: 25%;
+    background-color: yellow;
+    float: left;
+}
+
+.column.one-sixth {
+    width: 16.666667%;
+    background-color: green;
+    float: left;
+}
+
+.column.one-eighth {
+    width: 12.5%;
+    background-color: blue;
+    float: left;
 }
