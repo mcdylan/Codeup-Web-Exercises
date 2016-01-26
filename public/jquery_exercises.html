@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>jQuery Exercises</title>
+</head>
+<body>
+	<h1>jQuery is awesome!</h1>
+
+	<div id="content" class="container">
+
+		<p id="countries" class="codeup">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<ul class="north-america" class="codeup">
+			<li id="countries" class="codeup">Canada</li>
+			<li id="countries">Mexico</li>
+			<li id="countries">USA</li>
+		</ul>
+
+		<p id="cheese" class="codeup">
+			Cheese.
+		</p>
+
+	</div>
+
+
+	<script src="/js/jquery.js"></script>
+	<script type="text/javascript">
+
+	$(document).ready(function() {
+		alert("The DOM has finished loading!");
+
+		$("li").css("font-size", "20px");
+		$("h1, p, li").css("background-color", "yellow");
+
+		var headerContents = $("h1").html();
+		alert(headerContents);
+
+
+
+
+	});
+
+	</script>
+
+</body>
+</html>
